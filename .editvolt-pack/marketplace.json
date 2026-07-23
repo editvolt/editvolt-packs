@@ -5,7 +5,7 @@
 	},
 	"metadata": {
 		"description": "Curated Pack catalog for EditVolt. Installs from upstream Git URLs; thin wrappers stay in this repo.",
-		"version": "0.3.0"
+		"version": "0.3.1"
 	},
 	"plugins": [
 		{
@@ -391,6 +391,20 @@
 				"required": true,
 				"reason": "Needs a Cloudflare API token for account tools."
 			}
+		},
+		{
+			"name": "playwright-mcp",
+			"description": "Playwright MCP \u2014 browser automation via accessibility snapshots (no vision model required).",
+			"category": "Infrastructure",
+			"keywords": [
+				"playwright",
+				"browser",
+				"mcp",
+				"automation",
+				"testing"
+			],
+			"license": "Apache-2.0",
+			"source": "./packs/playwright-mcp"
 		},
 		{
 			"name": "stripe-mcp",
