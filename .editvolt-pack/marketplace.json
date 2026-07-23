@@ -5,14 +5,18 @@
 	},
 	"metadata": {
 		"description": "Curated Pack catalog for EditVolt. Installs from upstream Git URLs; thin wrappers stay in this repo.",
-		"version": "0.2.0"
+		"version": "0.3.0"
 	},
 	"plugins": [
 		{
 			"name": "adobe-app-builder",
 			"description": "Development, customization, testing, and deployment skills for Adobe App Builder projects.",
 			"category": "Featured",
-			"keywords": ["adobe", "app-builder", "skills"],
+			"keywords": [
+				"adobe",
+				"app-builder",
+				"skills"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -22,9 +26,15 @@
 		},
 		{
 			"name": "adobe-stardust",
-			"description": "Guided website redesign skills — higher-level design flow for existing sites.",
+			"description": "Guided website redesign skills \u2014 higher-level design flow for existing sites.",
 			"category": "Featured",
-			"keywords": ["adobe", "stardust", "design", "redesign", "frontend"],
+			"keywords": [
+				"adobe",
+				"stardust",
+				"design",
+				"redesign",
+				"frontend"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -36,7 +46,13 @@
 			"name": "adobe-web",
 			"description": "Browser automation and web page analysis skills (playwright-cli, CDP, DOM extraction).",
 			"category": "Infrastructure",
-			"keywords": ["adobe", "web", "browser", "playwright", "automation"],
+			"keywords": [
+				"adobe",
+				"web",
+				"browser",
+				"playwright",
+				"automation"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -48,7 +64,12 @@
 			"name": "adobe-aem-eds",
 			"description": "Skills for AEM Edge Delivery Services development.",
 			"category": "Infrastructure",
-			"keywords": ["adobe", "aem", "edge-delivery", "eds"],
+			"keywords": [
+				"adobe",
+				"aem",
+				"edge-delivery",
+				"eds"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -58,9 +79,14 @@
 		},
 		{
 			"name": "adobe-aem-cloud-service",
-			"description": "AEM as a Cloud Service skills — components, Dispatcher, and workflows.",
+			"description": "AEM as a Cloud Service skills \u2014 components, Dispatcher, and workflows.",
 			"category": "Infrastructure",
-			"keywords": ["adobe", "aem", "cloud-service", "dispatcher"],
+			"keywords": [
+				"adobe",
+				"aem",
+				"cloud-service",
+				"dispatcher"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -70,9 +96,15 @@
 		},
 		{
 			"name": "adobe-aem-6-5-lts",
-			"description": "AEM 6.5 LTS skills — Dispatcher and workflows for AEM 6.5 LTS and AMS.",
+			"description": "AEM 6.5 LTS skills \u2014 Dispatcher and workflows for AEM 6.5 LTS and AMS.",
 			"category": "Infrastructure",
-			"keywords": ["adobe", "aem", "6.5", "lts", "ams"],
+			"keywords": [
+				"adobe",
+				"aem",
+				"6.5",
+				"lts",
+				"ams"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -84,7 +116,12 @@
 			"name": "adobe-aem-project-management",
 			"description": "Project lifecycle management skills for AEM Edge Delivery Services.",
 			"category": "Productivity",
-			"keywords": ["adobe", "aem", "project-management", "eds"],
+			"keywords": [
+				"adobe",
+				"aem",
+				"project-management",
+				"eds"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -94,9 +131,16 @@
 		},
 		{
 			"name": "adobe-aem-eds-content-ops",
-			"description": "EDS content operations — SEO, accessibility, metadata, sitemaps, and content auditing.",
+			"description": "EDS content operations \u2014 SEO, accessibility, metadata, sitemaps, and content auditing.",
 			"category": "Productivity",
-			"keywords": ["adobe", "aem", "eds", "seo", "content-ops", "accessibility"],
+			"keywords": [
+				"adobe",
+				"aem",
+				"eds",
+				"seo",
+				"content-ops",
+				"accessibility"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -106,9 +150,15 @@
 		},
 		{
 			"name": "adobe-analytics",
-			"description": "Adobe Analytics practitioner skills via the Analytics MCP server — KPIs, funnels, segments.",
+			"description": "Adobe Analytics practitioner skills via the Analytics MCP server \u2014 KPIs, funnels, segments.",
 			"category": "Data & Analytics",
-			"keywords": ["adobe", "analytics", "mcp", "reporting", "kpi"],
+			"keywords": [
+				"adobe",
+				"analytics",
+				"mcp",
+				"reporting",
+				"kpi"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -124,7 +174,13 @@
 			"name": "adobe-cja",
 			"description": "Adobe Customer Journey Analytics skills via the CJA MCP server.",
 			"category": "Data & Analytics",
-			"keywords": ["adobe", "cja", "customer-journey", "analytics", "mcp"],
+			"keywords": [
+				"adobe",
+				"cja",
+				"customer-journey",
+				"analytics",
+				"mcp"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -140,7 +196,11 @@
 			"name": "adobe-commerce-app-management",
 			"description": "Adobe Commerce app management skills for store and extension workflows.",
 			"category": "Productivity",
-			"keywords": ["adobe", "commerce", "app-management"],
+			"keywords": [
+				"adobe",
+				"commerce",
+				"app-management"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -152,7 +212,11 @@
 			"name": "adobe-commerce-app-migration",
 			"description": "Adobe Commerce app migration skills for moving and modernizing store apps.",
 			"category": "Productivity",
-			"keywords": ["adobe", "commerce", "migration"],
+			"keywords": [
+				"adobe",
+				"commerce",
+				"migration"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -162,9 +226,14 @@
 		},
 		{
 			"name": "adobe-for-creativity",
-			"description": "Creative Cloud agent skills — image edit workflows and creative automation.",
+			"description": "Creative Cloud agent skills \u2014 image edit workflows and creative automation.",
 			"category": "Featured",
-			"keywords": ["adobe", "creative-cloud", "design", "images"],
+			"keywords": [
+				"adobe",
+				"creative-cloud",
+				"design",
+				"images"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -174,9 +243,15 @@
 		},
 		{
 			"name": "huggingface-skills",
-			"description": "Hugging Face Hub operations via the hf CLI — models, datasets, jobs, and skill bootstrap.",
+			"description": "Hugging Face Hub operations via the hf CLI \u2014 models, datasets, jobs, and skill bootstrap.",
 			"category": "Featured",
-			"keywords": ["huggingface", "hf", "models", "datasets", "skills"],
+			"keywords": [
+				"huggingface",
+				"hf",
+				"models",
+				"datasets",
+				"skills"
+			],
 			"license": "Apache-2.0",
 			"source": {
 				"source": "github",
@@ -187,7 +262,12 @@
 			"name": "superpowers",
 			"description": "Core agent skills library: TDD, debugging, collaboration patterns, and proven techniques.",
 			"category": "Agent Orchestration",
-			"keywords": ["superpowers", "tdd", "debugging", "skills"],
+			"keywords": [
+				"superpowers",
+				"tdd",
+				"debugging",
+				"skills"
+			],
 			"license": "MIT",
 			"source": {
 				"source": "github",
@@ -198,7 +278,12 @@
 			"name": "compound-engineering",
 			"description": "Brainstorm, plan, debug, review, and compound learnings with AI agents.",
 			"category": "Agent Orchestration",
-			"keywords": ["compound", "engineering", "review", "planning"],
+			"keywords": [
+				"compound",
+				"engineering",
+				"review",
+				"planning"
+			],
 			"license": "MIT",
 			"source": {
 				"source": "github",
@@ -209,7 +294,12 @@
 			"name": "context7",
 			"description": "Up-to-date library documentation lookup for LLMs and coding agents.",
 			"category": "Productivity",
-			"keywords": ["context7", "docs", "documentation", "mcp"],
+			"keywords": [
+				"context7",
+				"docs",
+				"documentation",
+				"mcp"
+			],
 			"license": "MIT",
 			"source": {
 				"source": "github",
@@ -219,9 +309,14 @@
 		},
 		{
 			"name": "github-mcp",
-			"description": "Official GitHub MCP server — repositories, issues, pull requests, and more.",
+			"description": "Official GitHub MCP server \u2014 repositories, issues, pull requests, and more.",
 			"category": "Infrastructure",
-			"keywords": ["github", "mcp", "git", "pull-requests"],
+			"keywords": [
+				"github",
+				"mcp",
+				"git",
+				"pull-requests"
+			],
 			"license": "MIT",
 			"source": "./packs/github-mcp",
 			"auth": {
@@ -231,9 +326,14 @@
 		},
 		{
 			"name": "notion-mcp",
-			"description": "Official Notion MCP server — pages, databases, and workspace search.",
+			"description": "Official Notion MCP server \u2014 pages, databases, and workspace search.",
 			"category": "Productivity",
-			"keywords": ["notion", "mcp", "docs", "wiki"],
+			"keywords": [
+				"notion",
+				"mcp",
+				"docs",
+				"wiki"
+			],
 			"license": "MIT",
 			"source": "./packs/notion-mcp",
 			"auth": {
@@ -243,9 +343,14 @@
 		},
 		{
 			"name": "datadog-mcp",
-			"description": "Datadog remote MCP — metrics, logs, monitors, and observability tools.",
+			"description": "Datadog remote MCP \u2014 metrics, logs, monitors, and observability tools.",
 			"category": "Data & Analytics",
-			"keywords": ["datadog", "mcp", "observability", "metrics"],
+			"keywords": [
+				"datadog",
+				"mcp",
+				"observability",
+				"metrics"
+			],
 			"license": "Apache-2.0",
 			"source": "./packs/datadog-mcp",
 			"auth": {
@@ -255,9 +360,14 @@
 		},
 		{
 			"name": "google-gcloud",
-			"description": "Google Cloud gcloud MCP — manage GCP resources from the agent.",
+			"description": "Google Cloud gcloud MCP \u2014 manage GCP resources from the agent.",
 			"category": "Infrastructure",
-			"keywords": ["google", "gcloud", "gcp", "mcp"],
+			"keywords": [
+				"google",
+				"gcloud",
+				"gcp",
+				"mcp"
+			],
 			"license": "Apache-2.0",
 			"source": "./packs/google-gcloud",
 			"auth": {
@@ -267,14 +377,189 @@
 		},
 		{
 			"name": "cloudflare-mcp",
-			"description": "Cloudflare MCP server — Workers, DNS, and account operations.",
+			"description": "Cloudflare MCP server \u2014 Workers, DNS, and account operations.",
 			"category": "Infrastructure",
-			"keywords": ["cloudflare", "workers", "mcp", "dns"],
+			"keywords": [
+				"cloudflare",
+				"workers",
+				"mcp",
+				"dns"
+			],
 			"license": "Apache-2.0",
 			"source": "./packs/cloudflare-mcp",
 			"auth": {
 				"required": true,
 				"reason": "Needs a Cloudflare API token for account tools."
+			}
+		},
+		{
+			"name": "stripe-mcp",
+			"description": "Stripe MCP \u2014 payments, customers, invoices, and Stripe API tools.",
+			"category": "Payments",
+			"keywords": [
+				"stripe",
+				"payments",
+				"billing",
+				"mcp"
+			],
+			"license": "MIT",
+			"source": "./packs/stripe-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a Stripe secret or restricted API key."
+			}
+		},
+		{
+			"name": "shopify-dev-mcp",
+			"description": "Shopify Dev MCP \u2014 storefront, Admin API, and Shopify app development tools.",
+			"category": "Payments",
+			"keywords": [
+				"shopify",
+				"ecommerce",
+				"payments",
+				"mcp"
+			],
+			"license": "ISC",
+			"source": "./packs/shopify-dev-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs Shopify store credentials / access token for Admin tools."
+			}
+		},
+		{
+			"name": "linear-mcp",
+			"description": "Linear remote MCP \u2014 issues, projects, and product workflows.",
+			"category": "Productivity",
+			"keywords": [
+				"linear",
+				"issues",
+				"projects",
+				"mcp"
+			],
+			"license": "MIT",
+			"source": "./packs/linear-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Authenticate with your Linear account when the MCP session starts."
+			}
+		},
+		{
+			"name": "figma-mcp",
+			"description": "Figma remote MCP \u2014 design files, components, and design-to-code context.",
+			"category": "Productivity",
+			"keywords": [
+				"figma",
+				"design",
+				"ui",
+				"mcp"
+			],
+			"license": "Apache-2.0",
+			"source": "./packs/figma-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Authenticate with your Figma account when the MCP session starts."
+			}
+		},
+		{
+			"name": "atlassian-mcp",
+			"description": "Atlassian remote MCP \u2014 Jira and Confluence workspace tools.",
+			"category": "Productivity",
+			"keywords": [
+				"atlassian",
+				"jira",
+				"confluence",
+				"mcp"
+			],
+			"license": "Apache-2.0",
+			"source": "./packs/atlassian-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Authenticate with your Atlassian account when the MCP session starts."
+			}
+		},
+		{
+			"name": "supabase-mcp",
+			"description": "Supabase MCP \u2014 projects, database, and Supabase platform tools.",
+			"category": "Productivity",
+			"keywords": [
+				"supabase",
+				"postgres",
+				"database",
+				"mcp"
+			],
+			"license": "Apache-2.0",
+			"source": "./packs/supabase-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a Supabase access token for project tools."
+			}
+		},
+		{
+			"name": "neon-mcp",
+			"description": "Neon MCP \u2014 serverless Postgres projects and database management.",
+			"category": "Productivity",
+			"keywords": [
+				"neon",
+				"postgres",
+				"database",
+				"mcp"
+			],
+			"license": "MIT",
+			"source": "./packs/neon-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a Neon API key for management tools."
+			}
+		},
+		{
+			"name": "firecrawl-mcp",
+			"description": "Firecrawl MCP \u2014 web scraping, crawling, and site extraction for agents.",
+			"category": "Productivity",
+			"keywords": [
+				"firecrawl",
+				"scraping",
+				"crawl",
+				"mcp"
+			],
+			"license": "MIT",
+			"source": "./packs/firecrawl-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a Firecrawl API key."
+			}
+		},
+		{
+			"name": "brave-search-mcp",
+			"description": "Brave Search MCP \u2014 web search tools for agents.",
+			"category": "Productivity",
+			"keywords": [
+				"brave",
+				"search",
+				"web",
+				"mcp"
+			],
+			"license": "MIT",
+			"source": "./packs/brave-search-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a Brave Search API key."
+			}
+		},
+		{
+			"name": "hubspot-mcp",
+			"description": "HubSpot MCP \u2014 CRM, contacts, deals, and marketing tools.",
+			"category": "Productivity",
+			"keywords": [
+				"hubspot",
+				"crm",
+				"marketing",
+				"mcp"
+			],
+			"license": "MIT",
+			"source": "./packs/hubspot-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a HubSpot private app access token."
 			}
 		}
 	]

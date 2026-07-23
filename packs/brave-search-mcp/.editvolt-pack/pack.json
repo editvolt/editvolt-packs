@@ -1,0 +1,12 @@
+{
+	"name": "brave-search-mcp",
+	"version": "0.1.0",
+	"description": "Brave Search MCP \u2014 web search tools for agents. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"brave",
+		"search",
+		"web",
+		"mcp"
+	]
+}

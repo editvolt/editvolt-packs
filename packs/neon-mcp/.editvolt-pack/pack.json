@@ -1,0 +1,12 @@
+{
+	"name": "neon-mcp",
+	"version": "0.1.0",
+	"description": "Neon MCP \u2014 serverless Postgres projects and database management. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"neon",
+		"postgres",
+		"database",
+		"mcp"
+	]
+}

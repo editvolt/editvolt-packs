@@ -1,0 +1,12 @@
+{
+	"name": "stripe-mcp",
+	"version": "0.1.0",
+	"description": "Stripe MCP \u2014 payments, customers, invoices, and Stripe API tools. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"stripe",
+		"payments",
+		"billing",
+		"mcp"
+	]
+}

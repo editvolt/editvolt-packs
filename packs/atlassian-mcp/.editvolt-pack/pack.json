@@ -1,0 +1,12 @@
+{
+	"name": "atlassian-mcp",
+	"version": "0.1.0",
+	"description": "Atlassian remote MCP \u2014 Jira and Confluence workspace tools. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"atlassian",
+		"jira",
+		"confluence",
+		"mcp"
+	]
+}

@@ -37,8 +37,20 @@ Only list Packs that pass this checklist. Re-check when bumping a source `ref`/`
 | `datadog-mcp` | B | Datadog remote MCP URL | Apache-2.0 (vendor product) | Thin URL MCP wrapper |
 | `google-gcloud` | B | `@google-cloud/gcloud-mcp` | Apache-2.0 | Thin MCP wrapper |
 | `cloudflare-mcp` | B | `@cloudflare/mcp-server-cloudflare` | Apache-2.0 | Thin MCP wrapper |
+| `stripe-mcp` | B | `@stripe/mcp` | MIT | Payments |
+| `shopify-dev-mcp` | B | `@shopify/dev-mcp` | ISC | Payments / commerce (permissive ISC) |
+| `linear-mcp` | B | `https://mcp.linear.app/mcp` | MIT (remote product) | Productivity |
+| `figma-mcp` | B | `https://mcp.figma.com/mcp` | Apache-2.0 (remote product) | Productivity |
+| `atlassian-mcp` | B | `https://mcp.atlassian.com/v1/mcp` | Apache-2.0 | Productivity |
+| `supabase-mcp` | B | `@supabase/mcp-server-supabase` | Apache-2.0 | Productivity |
+| `neon-mcp` | B | `@neondatabase/mcp-server-neon` | MIT | Productivity |
+| `firecrawl-mcp` | B | `firecrawl-mcp` | MIT | Productivity |
+| `brave-search-mcp` | B | `@brave/brave-search-mcp-server` | MIT | Productivity |
+| `hubspot-mcp` | B | `@hubspot/mcp-server` | MIT | Productivity |
 
 Adobe Packs are **pattern A**: catalog entries only. Source trees stay in `adobe/skills` (repo license Apache-2.0).
+
+Productivity / Payments v0.3 wrappers are **pattern B**: EditVolt-owned `.editvolt-pack` + `.mcp.json` only.
 
 ## Blocked (do not list)
 

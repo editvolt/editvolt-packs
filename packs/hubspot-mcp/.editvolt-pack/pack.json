@@ -1,0 +1,12 @@
+{
+	"name": "hubspot-mcp",
+	"version": "0.1.0",
+	"description": "HubSpot MCP \u2014 CRM, contacts, deals, and marketing tools. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"hubspot",
+		"crm",
+		"marketing",
+		"mcp"
+	]
+}

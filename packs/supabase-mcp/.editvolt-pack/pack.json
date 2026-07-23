@@ -1,0 +1,12 @@
+{
+	"name": "supabase-mcp",
+	"version": "0.1.0",
+	"description": "Supabase MCP \u2014 projects, database, and Supabase platform tools. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"supabase",
+		"postgres",
+		"database",
+		"mcp"
+	]
+}

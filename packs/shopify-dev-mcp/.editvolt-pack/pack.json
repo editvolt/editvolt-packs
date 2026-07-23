@@ -1,0 +1,12 @@
+{
+	"name": "shopify-dev-mcp",
+	"version": "0.1.0",
+	"description": "Shopify Dev MCP \u2014 storefront, Admin API, and Shopify app development tools. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"shopify",
+		"ecommerce",
+		"payments",
+		"mcp"
+	]
+}

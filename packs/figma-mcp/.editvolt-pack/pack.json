@@ -1,0 +1,12 @@
+{
+	"name": "figma-mcp",
+	"version": "0.1.0",
+	"description": "Figma remote MCP \u2014 design files, components, and design-to-code context. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"figma",
+		"design",
+		"ui",
+		"mcp"
+	]
+}

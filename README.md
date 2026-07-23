@@ -43,3 +43,7 @@ Cards are text-only (no vendor logos).
 
 Most Adobe entries are pattern A links into [`adobe/skills`](https://github.com/adobe/skills) (App Builder, AEM, Analytics, CJA, Commerce, Creative Cloud, Stardust, Web). They appear in `.editvolt-pack/marketplace.json` only — not under `packs/`.
 
+## Productivity + Payments wrappers
+
+Pattern B folders under `packs/` point at official MCP packages or remote MCP URLs (Stripe, Shopify, Linear, Figma, Atlassian, Supabase, Neon, Firecrawl, Brave Search, HubSpot).
+

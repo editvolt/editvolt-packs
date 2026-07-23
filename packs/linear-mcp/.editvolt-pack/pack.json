@@ -1,0 +1,12 @@
+{
+	"name": "linear-mcp",
+	"version": "0.1.0",
+	"description": "Linear remote MCP \u2014 issues, projects, and product workflows. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"linear",
+		"issues",
+		"projects",
+		"mcp"
+	]
+}

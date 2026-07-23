@@ -1,0 +1,12 @@
+{
+	"name": "firecrawl-mcp",
+	"version": "0.1.0",
+	"description": "Firecrawl MCP \u2014 web scraping, crawling, and site extraction for agents. Thin EditVolt wrapper.",
+	"license": "MIT",
+	"keywords": [
+		"firecrawl",
+		"scraping",
+		"crawl",
+		"mcp"
+	]
+}
