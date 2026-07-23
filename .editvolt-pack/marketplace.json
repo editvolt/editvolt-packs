@@ -5,7 +5,7 @@
 	},
 	"metadata": {
 		"description": "Curated Pack catalog for EditVolt. Installs from upstream Git URLs; thin wrappers stay in this repo.",
-		"version": "0.1.0"
+		"version": "0.2.0"
 	},
 	"plugins": [
 		{
@@ -18,6 +18,158 @@
 				"source": "github",
 				"repo": "adobe/skills",
 				"path": "plugins/app-builder"
+			}
+		},
+		{
+			"name": "adobe-stardust",
+			"description": "Guided website redesign skills — higher-level design flow for existing sites.",
+			"category": "Featured",
+			"keywords": ["adobe", "stardust", "design", "redesign", "frontend"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/stardust"
+			}
+		},
+		{
+			"name": "adobe-web",
+			"description": "Browser automation and web page analysis skills (playwright-cli, CDP, DOM extraction).",
+			"category": "Infrastructure",
+			"keywords": ["adobe", "web", "browser", "playwright", "automation"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/web"
+			}
+		},
+		{
+			"name": "adobe-aem-eds",
+			"description": "Skills for AEM Edge Delivery Services development.",
+			"category": "Infrastructure",
+			"keywords": ["adobe", "aem", "edge-delivery", "eds"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/aem/edge-delivery-services"
+			}
+		},
+		{
+			"name": "adobe-aem-cloud-service",
+			"description": "AEM as a Cloud Service skills — components, Dispatcher, and workflows.",
+			"category": "Infrastructure",
+			"keywords": ["adobe", "aem", "cloud-service", "dispatcher"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/aem/cloud-service"
+			}
+		},
+		{
+			"name": "adobe-aem-6-5-lts",
+			"description": "AEM 6.5 LTS skills — Dispatcher and workflows for AEM 6.5 LTS and AMS.",
+			"category": "Infrastructure",
+			"keywords": ["adobe", "aem", "6.5", "lts", "ams"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/aem/6.5-lts"
+			}
+		},
+		{
+			"name": "adobe-aem-project-management",
+			"description": "Project lifecycle management skills for AEM Edge Delivery Services.",
+			"category": "Productivity",
+			"keywords": ["adobe", "aem", "project-management", "eds"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/aem/project-management"
+			}
+		},
+		{
+			"name": "adobe-aem-eds-content-ops",
+			"description": "EDS content operations — SEO, accessibility, metadata, sitemaps, and content auditing.",
+			"category": "Productivity",
+			"keywords": ["adobe", "aem", "eds", "seo", "content-ops", "accessibility"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/aem/edge-delivery-services-content-ops"
+			}
+		},
+		{
+			"name": "adobe-analytics",
+			"description": "Adobe Analytics practitioner skills via the Analytics MCP server — KPIs, funnels, segments.",
+			"category": "Data & Analytics",
+			"keywords": ["adobe", "analytics", "mcp", "reporting", "kpi"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/adobe-analytics"
+			},
+			"auth": {
+				"required": true,
+				"reason": "Needs Adobe Analytics MCP credentials before reporting tools work."
+			}
+		},
+		{
+			"name": "adobe-cja",
+			"description": "Adobe Customer Journey Analytics skills via the CJA MCP server.",
+			"category": "Data & Analytics",
+			"keywords": ["adobe", "cja", "customer-journey", "analytics", "mcp"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/adobe-cja"
+			},
+			"auth": {
+				"required": true,
+				"reason": "Needs Adobe Customer Journey Analytics MCP credentials before tools work."
+			}
+		},
+		{
+			"name": "adobe-commerce-app-management",
+			"description": "Adobe Commerce app management skills for store and extension workflows.",
+			"category": "Productivity",
+			"keywords": ["adobe", "commerce", "app-management"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/commerce/app-management"
+			}
+		},
+		{
+			"name": "adobe-commerce-app-migration",
+			"description": "Adobe Commerce app migration skills for moving and modernizing store apps.",
+			"category": "Productivity",
+			"keywords": ["adobe", "commerce", "migration"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/commerce/app-migration"
+			}
+		},
+		{
+			"name": "adobe-for-creativity",
+			"description": "Creative Cloud agent skills — image edit workflows and creative automation.",
+			"category": "Featured",
+			"keywords": ["adobe", "creative-cloud", "design", "images"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/creative-cloud/adobe-for-creativity"
 			}
 		},
 		{

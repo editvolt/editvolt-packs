@@ -38,3 +38,8 @@ packs/<id>/                       # EditVolt-owned thin wrappers (MIT)
 Featured · Infrastructure · Data & Analytics · Productivity · Payments · Agent Orchestration
 
 Cards are text-only (no vendor logos).
+
+## Adobe Packs
+
+Most Adobe entries are pattern A links into [`adobe/skills`](https://github.com/adobe/skills) (App Builder, AEM, Analytics, CJA, Commerce, Creative Cloud, Stardust, Web). They appear in `.editvolt-pack/marketplace.json` only — not under `packs/`.
+
