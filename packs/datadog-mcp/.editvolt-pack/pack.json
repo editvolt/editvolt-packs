@@ -1,0 +1,7 @@
+{
+	"name": "datadog-mcp",
+	"version": "0.1.0",
+	"description": "Datadog remote MCP for EditVolt (thin wrapper).",
+	"license": "MIT",
+	"keywords": ["datadog", "mcp"]
+}

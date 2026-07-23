@@ -1,0 +1,7 @@
+{
+	"name": "google-gcloud",
+	"version": "0.1.0",
+	"description": "Google Cloud gcloud MCP for EditVolt (thin wrapper).",
+	"license": "MIT",
+	"keywords": ["google", "gcloud", "mcp"]
+}

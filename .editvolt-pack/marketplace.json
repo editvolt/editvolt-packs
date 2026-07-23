@@ -1,0 +1,129 @@
+{
+	"name": "editvolt-packs",
+	"owner": {
+		"name": "EditVolt"
+	},
+	"metadata": {
+		"description": "Curated Pack catalog for EditVolt. Installs from upstream Git URLs; thin wrappers stay in this repo.",
+		"version": "0.1.0"
+	},
+	"plugins": [
+		{
+			"name": "adobe-app-builder",
+			"description": "Development, customization, testing, and deployment skills for Adobe App Builder projects.",
+			"category": "Featured",
+			"keywords": ["adobe", "app-builder", "skills"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "adobe/skills",
+				"path": "plugins/app-builder"
+			}
+		},
+		{
+			"name": "huggingface-skills",
+			"description": "Hugging Face Hub operations via the hf CLI — models, datasets, jobs, and skill bootstrap.",
+			"category": "Featured",
+			"keywords": ["huggingface", "hf", "models", "datasets", "skills"],
+			"license": "Apache-2.0",
+			"source": {
+				"source": "github",
+				"repo": "huggingface/skills"
+			}
+		},
+		{
+			"name": "superpowers",
+			"description": "Core agent skills library: TDD, debugging, collaboration patterns, and proven techniques.",
+			"category": "Agent Orchestration",
+			"keywords": ["superpowers", "tdd", "debugging", "skills"],
+			"license": "MIT",
+			"source": {
+				"source": "github",
+				"repo": "obra/superpowers"
+			}
+		},
+		{
+			"name": "compound-engineering",
+			"description": "Brainstorm, plan, debug, review, and compound learnings with AI agents.",
+			"category": "Agent Orchestration",
+			"keywords": ["compound", "engineering", "review", "planning"],
+			"license": "MIT",
+			"source": {
+				"source": "github",
+				"repo": "EveryInc/compound-engineering-plugin"
+			}
+		},
+		{
+			"name": "context7",
+			"description": "Up-to-date library documentation lookup for LLMs and coding agents.",
+			"category": "Productivity",
+			"keywords": ["context7", "docs", "documentation", "mcp"],
+			"license": "MIT",
+			"source": {
+				"source": "github",
+				"repo": "upstash/context7",
+				"path": "plugins/claude/context7"
+			}
+		},
+		{
+			"name": "github-mcp",
+			"description": "Official GitHub MCP server — repositories, issues, pull requests, and more.",
+			"category": "Infrastructure",
+			"keywords": ["github", "mcp", "git", "pull-requests"],
+			"license": "MIT",
+			"source": "./packs/github-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a GitHub personal access token for repository tools."
+			}
+		},
+		{
+			"name": "notion-mcp",
+			"description": "Official Notion MCP server — pages, databases, and workspace search.",
+			"category": "Productivity",
+			"keywords": ["notion", "mcp", "docs", "wiki"],
+			"license": "MIT",
+			"source": "./packs/notion-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a Notion integration token before tools work."
+			}
+		},
+		{
+			"name": "datadog-mcp",
+			"description": "Datadog remote MCP — metrics, logs, monitors, and observability tools.",
+			"category": "Data & Analytics",
+			"keywords": ["datadog", "mcp", "observability", "metrics"],
+			"license": "Apache-2.0",
+			"source": "./packs/datadog-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Authenticate with your Datadog account when the MCP session starts."
+			}
+		},
+		{
+			"name": "google-gcloud",
+			"description": "Google Cloud gcloud MCP — manage GCP resources from the agent.",
+			"category": "Infrastructure",
+			"keywords": ["google", "gcloud", "gcp", "mcp"],
+			"license": "Apache-2.0",
+			"source": "./packs/google-gcloud",
+			"auth": {
+				"required": true,
+				"reason": "Requires local gcloud authentication for GCP tools."
+			}
+		},
+		{
+			"name": "cloudflare-mcp",
+			"description": "Cloudflare MCP server — Workers, DNS, and account operations.",
+			"category": "Infrastructure",
+			"keywords": ["cloudflare", "workers", "mcp", "dns"],
+			"license": "Apache-2.0",
+			"source": "./packs/cloudflare-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a Cloudflare API token for account tools."
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"name": "cloudflare-mcp",
+	"version": "0.1.0",
+	"description": "Cloudflare MCP server for EditVolt (thin wrapper).",
+	"license": "MIT",
+	"keywords": ["cloudflare", "mcp"]
+}

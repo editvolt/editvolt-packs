@@ -1,0 +1,7 @@
+{
+	"name": "notion-mcp",
+	"version": "0.1.0",
+	"description": "Official Notion MCP server for EditVolt (thin wrapper).",
+	"license": "MIT",
+	"keywords": ["notion", "mcp"]
+}
