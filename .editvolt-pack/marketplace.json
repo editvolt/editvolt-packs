@@ -5,7 +5,7 @@
 	},
 	"metadata": {
 		"description": "Curated Pack catalog for EditVolt. Installs from upstream Git URLs; thin wrappers stay in this repo.",
-		"version": "0.3.1"
+		"version": "0.3.2"
 	},
 	"plugins": [
 		{
@@ -405,6 +405,24 @@
 			],
 			"license": "Apache-2.0",
 			"source": "./packs/playwright-mcp"
+		},
+		{
+			"name": "browserbase-mcp",
+			"description": "Browserbase MCP \u2014 cloud browser sessions for agent web automation.",
+			"category": "Infrastructure",
+			"keywords": [
+				"browserbase",
+				"browser",
+				"mcp",
+				"automation",
+				"cloud"
+			],
+			"license": "Apache-2.0",
+			"source": "./packs/browserbase-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs Browserbase API key and project id before tools work."
+			}
 		},
 		{
 			"name": "stripe-mcp",

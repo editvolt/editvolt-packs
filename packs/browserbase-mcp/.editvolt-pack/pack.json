@@ -1,0 +1,7 @@
+{
+	"name": "browserbase-mcp",
+	"version": "0.1.0",
+	"description": "Browserbase MCP server for EditVolt (thin wrapper).",
+	"license": "Apache-2.0",
+	"keywords": ["browserbase", "browser", "mcp", "automation"]
+}

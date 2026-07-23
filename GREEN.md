@@ -38,6 +38,7 @@ Only list Packs that pass this checklist. Re-check when bumping a source `ref`/`
 | `google-gcloud` | B | `@google-cloud/gcloud-mcp` | Apache-2.0 | Thin MCP wrapper |
 | `cloudflare-mcp` | B | `@cloudflare/mcp-server-cloudflare` | Apache-2.0 | Thin MCP wrapper |
 | `playwright-mcp` | B | `@playwright/mcp` (`microsoft/playwright-mcp`) | Apache-2.0 | Browser automation MCP |
+| `browserbase-mcp` | B | `@browserbasehq/mcp` | Apache-2.0 | Cloud browser MCP |
 | `stripe-mcp` | B | `@stripe/mcp` | MIT | Payments |
 | `shopify-dev-mcp` | B | `@shopify/dev-mcp` | ISC | Payments / commerce (permissive ISC) |
 | `linear-mcp` | B | `https://mcp.linear.app/mcp` | MIT (remote product) | Productivity |
