@@ -5,7 +5,7 @@
 	},
 	"metadata": {
 		"description": "Curated Pack catalog for EditVolt. Installs from upstream Git URLs; thin wrappers stay in this repo.",
-		"version": "0.3.2"
+		"version": "0.3.3"
 	},
 	"plugins": [
 		{
@@ -356,6 +356,24 @@
 			"auth": {
 				"required": true,
 				"reason": "Authenticate with your Datadog account when the MCP session starts."
+			}
+		},
+		{
+			"name": "postgres-mcp",
+			"description": "PostgreSQL MCP \u2014 read-only SQL tools against a connection string.",
+			"category": "Data & Analytics",
+			"keywords": [
+				"postgres",
+				"postgresql",
+				"sql",
+				"database",
+				"mcp"
+			],
+			"license": "MIT",
+			"source": "./packs/postgres-mcp",
+			"auth": {
+				"required": true,
+				"reason": "Needs a PostgreSQL connection string before tools work."
 			}
 		},
 		{

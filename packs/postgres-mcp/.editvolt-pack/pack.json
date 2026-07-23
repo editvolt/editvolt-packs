@@ -1,0 +1,7 @@
+{
+	"name": "postgres-mcp",
+	"version": "0.1.0",
+	"description": "PostgreSQL MCP server for EditVolt (thin wrapper).",
+	"license": "MIT",
+	"keywords": ["postgres", "postgresql", "sql", "mcp", "database"]
+}

@@ -35,6 +35,7 @@ Only list Packs that pass this checklist. Re-check when bumping a source `ref`/`
 | `github-mcp` | B | `ghcr.io/github/github-mcp-server` | MIT | Thin MCP wrapper |
 | `notion-mcp` | B | `@notionhq/notion-mcp-server` | MIT | Thin MCP wrapper |
 | `datadog-mcp` | B | Datadog remote MCP URL | Apache-2.0 (vendor product) | Thin URL MCP wrapper |
+| `postgres-mcp` | B | `@modelcontextprotocol/server-postgres` | MIT | Data & Analytics |
 | `google-gcloud` | B | `@google-cloud/gcloud-mcp` | Apache-2.0 | Thin MCP wrapper |
 | `cloudflare-mcp` | B | `@cloudflare/mcp-server-cloudflare` | Apache-2.0 | Thin MCP wrapper |
 | `playwright-mcp` | B | `@playwright/mcp` (`microsoft/playwright-mcp`) | Apache-2.0 | Browser automation MCP |
